@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { ForwardRefExoticComponent, ReactNode, RefAttributes } from "react";
-import { useParams, usePathname } from "next/navigation";
+import { useParams } from "next/navigation";
 
 const ServerPageLayout = ({
   params,
