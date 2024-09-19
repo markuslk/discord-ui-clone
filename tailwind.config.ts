@@ -13,6 +13,9 @@ const config: Config = {
       lg: "0 8px 16px rgba(0,0,0,0.24)",
     },
     extend: {
+      screens: {
+        mdlg: "990px",
+      },
       colors: {
         brand: "#5865F2",
         gray: {
@@ -31,6 +34,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
 export default config;
